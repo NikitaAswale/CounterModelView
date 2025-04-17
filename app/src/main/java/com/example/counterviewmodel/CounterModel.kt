@@ -1,3 +1,4 @@
+
 package com.example.counterviewmodel
 
 data class CounterModel(var count : Int)
@@ -11,7 +12,7 @@ class CounterRepository{
         _counter.count++
     }
 
-    fun decrementCounter(){
-        _counter.count--
-    }
+   // fun decrementCounter(){
+     //   _counter.count--
+    //}
 }
